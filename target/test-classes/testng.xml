@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insurance Automation Test Suite" parallel="true" verbose="3">
+    
+    <test name="Insurance Quote Tests" preserve-order="true">
+        <classes>
+            <class name="org.example.tests.CarInsuranceTest">
+                <methods>
+                    <include name="testCarInsurance"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.BikeInsuranceTest">
+                <methods>
+                    <include name="testBikeInsurance"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.TravelInsuranceTest">
+                <methods>
+                    <include name="testTravelInsurance"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

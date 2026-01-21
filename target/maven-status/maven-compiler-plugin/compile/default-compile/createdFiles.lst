@@ -1,0 +1,11 @@
+org\example\BasePage.class
+org\example\pages\ResultsPage.class
+org\example\pages\HomePage.class
+org\example\pages\BikeInsurancePage.class
+org\example\pages\CarInsurancePage.class
+org\example\pages\TravelInsurancePage.class
+org\example\utils\ActionsUtil.class
+org\example\utils\WaitUtils.class
+org\example\base\BaseTest.class
+org\example\utils\WebDriverFactory.class
+org\example\config\ConfigReader.class
